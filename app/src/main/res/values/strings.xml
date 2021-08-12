@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Mobile Learning - Teknologi &amp; Lingkungan </string>
+    <string name="judul">Teknologi &amp; Lingkungan</string>
+    <string name="sub_judul">Melatih Kognitif dan Keterampilan Komunikasi Peserta Didik</string>
+    <string name="tentang">Mobile Learning (M-Learning) Fisika ini membahas materi tentang "Teknologi &amp; Lingkungan".
+        Aplikasi ini berisi materi pembelajaran, latihan soal dan tes. Melalui kegiatan pembelajaran dengan menggunakan bahan ajar mobile learning berbasis multirepresentasi, peserta didik  diharapkan
+        mampu mengoptimalkan kemampuan kognitif dan keterampilan komunikasi dalam menerapkan prinsip Teknologi &amp; Lingkungan dalam kehidupan sehari-hari.</string>
+    <string name="penyusun">Inestha Louk\nUniversitas Pendidikan Indonesia
+</string>
+    <string name="kognitif"><![CDATA[<ul><li>Mendefinisikan bioteknologi </li>
+<li>Mengumpulkan informasi tentang penerapan bioteknologi dalam kehidupan manusia.</li>
+<li>Menjelaskan ciri-ciri bioteknologi.</li>
+<li>Membedakan bioteknologi konvensional dan bioteknologi modern. </li>
+<li>Menjelaskan proses fermentasi dalam produk bioteknologi konvensional </li>
+<li>Membuat salah satu produk bioteknologi konvensional. </li>
+<li>Menjelaskan contoh penerapan bioteknologi modern.</li>
+<li>Menyajikan karya tentang proses dan produk bioteknologi konvensional </li>
+<li>Menjelaskan dampak bioteknologi bagi makhluk hidup dan lingkungan.  </li>
+<li>Mendefinisikan teknologi ramah lingkungan.</li>
+<li>Mengumpulkan informasi tentang teknologi ramah lingkungan. </li>
+<li>Menjelaskan prinsip dasar teknologi ramah lingkungan.  </li>
+<li>Menjelaskan contoh penerapan teknologi ramah lingkungan diberbagai bidang. </li>
+<li>Menganalisis salah satu produk teknologi ramah lingkungan  </li>
+<li>Menyajikan karya tentang proses dan produk teknologi sederhana yang ramah lingkungan. </li>
+<li>Menguraikan manfaat teknologi ramah lingkungan bagi makhluk hidup dan lingkungan. </li>
+<li>Menjelaskan teknologi tidak ramah lingkungan. </li>
+<li>Mengelompokkan teknologi ramah lingkungan dan tidak ramah lingkungan.</li>
+<li>Menguraikan dampak teknologi tidak ramah lingkungan bagi makhluk hidup dan lingkungan.</li></ul>
+]]>
+</string>
+    <string name="petunjuk">Buka menu “Materi” untuk mempelajari materi dengan seksama \n
+\n Kerjakan latihan soal untuk mengasah kemampuan dan mengetahui perkembangan belajar \n
+\n Catatlah semua kesulitan yang anda alami dalam mempelajari M-learning dan tanyakan pada instruktur/guru</string>
+</resources>
