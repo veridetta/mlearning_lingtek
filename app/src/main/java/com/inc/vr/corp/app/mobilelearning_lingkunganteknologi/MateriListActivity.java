@@ -10,6 +10,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.adapter.MateriAdapter;
 import com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.model.MateriModel;
 
@@ -67,23 +68,27 @@ public class MateriListActivity extends AppCompatActivity {
         islamijudulList.add("Perilaku Hemat Energi ");
         islamijudulList.add("Teknologi Tidak Ramah Lingkungan ");
         islamijudulList.add("Dampak Teknologi Tidak Ramah Lingkungan");
+        islamijudulList.add("Referensi");
         islamigambarList.add("bioteknologi");
         islamigambarList.add("konvenmodern");
         islamigambarList.add("konvensional");
         islamigambarList.add("modern");
+        islamigambarList.add("dampak");
         islamigambarList.add("teknologi");
         islamigambarList.add("perilaku");
         islamigambarList.add("tekonologit");
-        islamigambarList.add("dampak");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
-        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
+        islamigambarList.add("dampakt");
+        islamigambarList.add("daftar");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
+        islamiurlList.add("com.inc.vr.corp.app.mobilelearning_lingkunganteknologi.materi.MateriContent");
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getApplicationContext(),2);
         rc_cari.setLayoutManager(mLayoutManager);
         rc_cari.setAdapter(mDataAdapter);

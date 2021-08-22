@@ -41,7 +41,7 @@
                     android:paddingTop="@dimen/_10sdp"
                     android:paddingBottom="@dimen/_10sdp"
                     android:orientation="vertical">
-                    <!--<LinearLayout
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/_16sdp"
@@ -58,12 +58,12 @@
                                 android:layout_height="wrap_content"
                                 android:textSize="@dimen/_15sdp"
                                 android:textStyle="bold"
-                                android:text="Latihan Soal"/>
+                                android:text="Tes Pilihan Ganda"/>
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="@dimen/_13sdp"
-                                android:text="Latihan Soal adalah uji coba soal secara offline yang dapat dikerjakan kapanpun dan dapat diulang berkali kali"/>
+                                android:text="Soal Evaluasi Pembelajaran Topik Teknologi dan Lingkungan yang dilaksanakan dengan sistem pilihan ganda"/>
                             <androidx.cardview.widget.CardView
                                 android:id="@+id/btn_latihan"
                                 android:layout_width="match_parent"
@@ -82,13 +82,13 @@
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="Latihan Sekarang"
+                                        android:text="Mulai"
                                         android:textStyle="bold"
                                         android:textSize="@dimen/_13sdp"/>
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
                         </LinearLayout>
-                    </LinearLayout>-->
+                    </LinearLayout>
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -116,12 +116,12 @@
                                     android:layout_height="wrap_content"
                                     android:textSize="@dimen/_15sdp"
                                     android:textStyle="bold"
-                                    android:text="Tes"/>
+                                    android:text="Tes Essay"/>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:textSize="@dimen/_13sdp"
-                                    android:text="Test menu are questions that can only be done online which is directly connected with the teacher"/>
+                                    android:text="Soal Evaluasi Pembelajaran Topik Teknologi dan Lingkungan yang dilaksanakan dengan sistem essay"/>
                                 <androidx.cardview.widget.CardView
                                     android:id="@+id/btn_tes"
                                     android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:text="Start"
+                                            android:text="Mulai"
                                             android:textStyle="bold"
                                             android:textSize="@dimen/_13sdp"/>
                                     </LinearLayout>

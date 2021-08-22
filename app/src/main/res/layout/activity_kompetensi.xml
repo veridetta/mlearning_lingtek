@@ -177,6 +177,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_12sdp"
+                                    android:layout_marginBottom="@dimen/_10sdp"
                                     android:background="@color/white"
                                     android:orientation="vertical">
                                     <TextView
@@ -184,12 +185,12 @@
                                         android:layout_height="wrap_content"
                                         android:textSize="@dimen/_15sdp"
                                         android:textStyle="bold"
-                                        android:text="Indikator"/>
+                                        android:text="Sistematika Penyajian Aplikasi Mobile Learning :"/>
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:textSize="@dimen/_13sdp"
-                                        android:text="Setelah menggunakan bahan ajar ini, siswa diharapkan dapat : "/>
+                                        android:text="@string/penyajian"/>
                                     <TextView
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"

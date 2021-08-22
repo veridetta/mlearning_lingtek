@@ -24,7 +24,7 @@
                     android:layout_width="@dimen/_130sdp"
                     android:layout_height="@dimen/_90sdp"
                     android:layout_gravity="center"
-                    android:background="@drawable/logo" />
+                    android:background="@drawable/logos" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 <ImageView
                     android:layout_width="@dimen/_80sdp"
                     android:layout_height="@dimen/_100sdp"
-                    android:background="@color/blue_A400"
+                    android:background="@drawable/penyusun"
                     android:layout_gravity="center"/>
                 <TextView
                     android:layout_width="match_parent"
@@ -74,13 +74,13 @@
                     android:layout_marginTop="@dimen/_30sdp"
                     android:paddingLeft="@dimen/_10sdp"
                     android:paddingRight="@dimen/_10sdp"
-                    android:text="Supervisor I"
+                    android:text="Pembimbing I"
                     android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
                 <ImageView
                     android:layout_width="@dimen/_80sdp"
                     android:layout_height="@dimen/_80sdp"
-                    android:background="@color/blue_A400"
+                    android:background="@drawable/pembimbing1"
                     android:layout_gravity="center"/>
                 <TextView
                     android:layout_width="match_parent"
@@ -88,7 +88,7 @@
                     android:layout_marginTop="@dimen/_8sdp"
                     android:paddingLeft="@dimen/_20sdp"
                     android:paddingRight="@dimen/_20sdp"
-                    android:text="Prof. Dr. Parlindungan Sinaga, M.Si."
+                    android:text="Dr. Didi Teguh Chandra, M.Si"
                     android:textSize="@dimen/_13sdp" />
 
                 <TextView
@@ -97,13 +97,13 @@
                     android:layout_marginTop="@dimen/_30sdp"
                     android:paddingLeft="@dimen/_10sdp"
                     android:paddingRight="@dimen/_10sdp"
-                    android:text="Supervisor II"
+                    android:text="Pembimbing II :"
                     android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
                 <ImageView
                     android:layout_width="@dimen/_80sdp"
                     android:layout_height="@dimen/_80sdp"
-                    android:background="@color/blue_A400"
+                    android:background="@drawable/pembimbing2"
                     android:layout_gravity="center"/>
                 <TextView
                     android:layout_width="match_parent"
@@ -112,7 +112,7 @@
                     android:layout_marginBottom="@dimen/_50sdp"
                     android:paddingLeft="@dimen/_20sdp"
                     android:paddingRight="@dimen/_20sdp"
-                    android:text="Dr. Diana Rochintaniawati"
+                    android:text="Dr. Parsaoran Siahaan, M.Pd"
                     android:textSize="@dimen/_13sdp" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>

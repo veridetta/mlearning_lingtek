@@ -17,20 +17,20 @@ public class LatihanListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_latihan_list);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
-        //latihan = findViewById(R.id.btn_latihan);
+        latihan = findViewById(R.id.btn_latihan);
         tes = findViewById(R.id.btn_tes);
         home = findViewById(R.id.btn_home);
-        /*latihan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(LatihanList.this, LatihanSoal.class);
-                startActivity(intent);
-            }
-        });*/
-        tes.setOnClickListener(new View.OnClickListener() {
+        latihan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LatihanListActivity.this, TesActivity.class);
+                startActivity(intent);
+            }
+        });
+        tes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LatihanListActivity.this, EssayActivity.class);
                 startActivity(intent);
             }
         });

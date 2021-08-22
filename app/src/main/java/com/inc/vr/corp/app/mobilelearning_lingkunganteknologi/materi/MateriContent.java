@@ -140,7 +140,11 @@ public class MateriContent extends AppCompatActivity {
                 if(anak.getNodeName().equals("subjudul")){
                     // add TextView
                     TextView tv = new TextView(this);
-                    tv.setText(Html.fromHtml(anak.getTextContent()));
+                    if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.N){
+                        tv.setText(Html.fromHtml(anak.getTextContent(),Html.FROM_HTML_MODE_COMPACT));
+                    }else{
+                        tv.setText(Html.fromHtml(anak.getTextContent()));
+                    }
                     Log.d("SUBJUDUL", "onCreate: "+anak.getTextContent());
                     tv.setTypeface(null, Typeface.BOLD);
                     tv.setId(nomor);
@@ -185,10 +189,10 @@ public class MateriContent extends AppCompatActivity {
                 if(anak.getNodeName().equals("teks")){
                     // add TextView
                     JustifiedTextView tv = new JustifiedTextView(this);
-                    Typeface face = Typeface.createFromAsset(getAssets(),
-                            "fonts/baskvl.ttf");
+                    //Typeface face = Typeface.createFromAsset(getAssets(),
+                      //      "fonts/baskvl.ttf");
                     tv.setText(anak.getTextContent());
-                    tv.setTypeface(face);
+                    //tv.setTypeface(face);
                     tv.setId(nomor);
                     tv.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
                             LinearLayout.LayoutParams.WRAP_CONTENT));
@@ -197,6 +201,24 @@ public class MateriContent extends AppCompatActivity {
                             getResources().getDimension(R.dimen._13sdp));
 
                     tv.setPadding(7, 3, 5, 3);
+                    konten.addView(tv);
+                }
+                if(anak.getNodeName().equals("li")){
+                    // add TextView
+                    JustifiedTextView tv = new JustifiedTextView(this);
+                    //Typeface face = Typeface.createFromAsset(getAssets(),
+                      //      "fonts/baskvl.ttf");
+                    tv.setText(anak.getTextContent());
+                    //tv.setTypeface(face);
+                    tv.setId(nomor);
+                    LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+                            LinearLayout.LayoutParams.WRAP_CONTENT);
+                    params.setMargins(7,3,3,3);
+                    //tv.setLayoutParams(params);
+                    //tv.setTextSize(16);
+                    tv.setTextSize(TypedValue.COMPLEX_UNIT_PX,
+                            getResources().getDimension(R.dimen._13sdp));
+                    tv.setPadding(20, 3, 5, 3);
                     konten.addView(tv);
                 }
                 if(anak.getNodeName().equals("pustaka")){
@@ -232,7 +254,7 @@ public class MateriContent extends AppCompatActivity {
                     // add ImageView
                     Display display = getWindowManager().getDefaultDisplay();
                     ImageView iv = new ImageView(konten.getContext());
-                    int resourceId = getResources().getIdentifier (anak.getTextContent(), "drawable", "com.vrcorp.mobilelearningfisika_pernapasan");
+                    int resourceId = getResources().getIdentifier (anak.getTextContent(), "drawable", "com.inc.vr.corp.app.mobilelearning_lingkunganteknologi");
                     iv.setImageResource(resourceId);
                     iv.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 

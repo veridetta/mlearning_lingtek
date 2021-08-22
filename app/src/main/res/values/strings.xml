@@ -2,10 +2,12 @@
     <string name="app_name">Mobile Learning - Teknologi &amp; Lingkungan </string>
     <string name="judul">Teknologi &amp; Lingkungan</string>
     <string name="sub_judul">Melatih Kognitif dan Keterampilan Komunikasi Peserta Didik</string>
-    <string name="tentang">Mobile Learning (M-Learning) Fisika ini membahas materi tentang "Teknologi &amp; Lingkungan".
-        Aplikasi ini berisi materi pembelajaran, latihan soal dan tes. Melalui kegiatan pembelajaran dengan menggunakan bahan ajar mobile learning berbasis multirepresentasi, peserta didik  diharapkan
-        mampu mengoptimalkan kemampuan kognitif dan keterampilan komunikasi dalam menerapkan prinsip Teknologi &amp; Lingkungan dalam kehidupan sehari-hari.</string>
-    <string name="penyusun">Inestha Louk\nUniversitas Pendidikan Indonesia
+    <string name="tentang">Aplikasi mobile learning ini dikembangkan dengan berorientasi pada kemampuan kolaborasi dan pemahaman hakikat sains, sehingga dilengkapi dengan aktivitas yang dapat melatih kemampuan kolaborasi dan pemahaman hakikat sains (Nature of Science) siswa.
+    \n Materi dalam aplikasi mobile learning ini dilengkapi dengan aktivitas yang harus dilakukan siswa untuk melatih kemampuan kolaborasi dan pemahaman hakikat sains (Nature of Science) siswa.
+        \n 3.	Aplikasi mobile learning ini dapat digunakan oleh guru dan siswa sebagai media pembelajaran mandiri bagi siswa dalam memahami materi pelajaran dengan topik Teknologi dan Lingkungan.
+
+    </string>
+    <string name="penyusun">Inestha Chrisane Arianti Louk \n Universitas Pendidikan Indonesia
 </string>
     <string name="kognitif"><![CDATA[<ul><li>Mendefinisikan bioteknologi </li>
 <li>Mengumpulkan informasi tentang penerapan bioteknologi dalam kehidupan manusia.</li>
@@ -28,7 +30,19 @@
 <li>Menguraikan dampak teknologi tidak ramah lingkungan bagi makhluk hidup dan lingkungan.</li></ul>
 ]]>
 </string>
-    <string name="petunjuk">Buka menu “Materi” untuk mempelajari materi dengan seksama \n
-\n Kerjakan latihan soal untuk mengasah kemampuan dan mengetahui perkembangan belajar \n
-\n Catatlah semua kesulitan yang anda alami dalam mempelajari M-learning dan tanyakan pada instruktur/guru</string>
+    <string name="petunjuk">
+        Dalam aplikasi ini, ada beberapa menu yang dapat membantumu menggunakan aplikasi mobile learning ini, yaitu :
+        \n Menu “kompetensi” berisi kompetensi  dasar yang harus kamu kuasai.
+        \n Menu “peta konsep” menunjukkan konsep-konsep materi pelajaran yang akan kamu pelajari.
+        \n Menu "materi pelajaran" berisi pembahasan setiap konsep materi pelajaran yang dapat dibaca untuk dipelajari.
+        \nSetelah kamu mempelajari seluruh materi pelajaran dalam aplikasi ini, selanjutnya pada menu “evaluasi” terdapat soal-soal untuk dikerjakan dengan tujuan meningkatkan pengetahuan, kemampuan kolaborasi dan pemahaman nature of science serta untuk mengetahui perkembanganmu dalam pembelajaran.
+    </string>
+    <string name="penyajian">
+        1.	Materi Pelajaran
+        \n Berisi pengetahuan berupa penjelasan isi materi pelajaran yang berkaitan dengan tema Teknologi dan Lingkungan yang disajikan dalam bentuk kalimat, gambar, animasi, dan video yang disesuaikan dengan fakta yang terjadi di lapangan.
+        \n 2.	Aktivitas Siswa (Mandiri dan Kelompok)
+        \n Berupa petunjuk aktivitas yang harus dilakukan siswa untuk melatih kemampuan kolaborasi dan pemahaman hakikat sains (Nature of Science) siswa.
+        \n 3.	Evaluasi
+        \n Berisi soal-soal yang menguji kemampuan kolaborasi dan pemahaman hakikat sains (Nature of Science) siswa setelah pembelajaran menggunakan aplikasi mobile learning.
+    </string>
 </resources>

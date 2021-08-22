@@ -1,5 +1,10 @@
 package com.inc.vr.corp.app.mobilelearning_lingkunganteknologi;
 
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -20,11 +25,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -39,7 +39,7 @@ import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-public class TesActivity extends AppCompatActivity {
+public class EssayActivity extends AppCompatActivity {
     LinearLayout ly_soal;
     EditText nama, kelas;
     CardView selesai;
@@ -51,7 +51,7 @@ public class TesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tes);
+        setContentView(R.layout.activity_essay);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
         editTextList = new ArrayList<EditText>();
@@ -90,7 +90,7 @@ public class TesActivity extends AppCompatActivity {
                                     connected = false;
                                 }
                                 if(connected){
-                                    Toast.makeText(TesActivity.this, "Terhubung", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(EssayActivity.this, "Terhubung", Toast.LENGTH_SHORT).show();
                                     Integer benar = 0, nomor=1;
                                     String isi = "";
                                     for(int o=0;o<10;o++){
@@ -111,7 +111,7 @@ public class TesActivity extends AppCompatActivity {
                                     sendEmail("Jawaban Tes","Nama Lengkap : "+namax+"\n Kelas : "+kelasx+" \n "+isi);
 
                                 }else{
-                                    Toast.makeText(TesActivity.this, "Tidak ada koneksi internet, jawaban kamu belum terkirim", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(EssayActivity.this, "Tidak ada koneksi internet, jawaban kamu belum terkirim", Toast.LENGTH_SHORT).show();
                                 }
                             }})
                         .setNegativeButton(android.R.string.no, null).show();
@@ -278,7 +278,7 @@ public class TesActivity extends AppCompatActivity {
                 final EditText editText = new EditText(this);
                 editText.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
                 editText.setMinLines(4);
-                editText.setHint("Your Answer");
+                editText.setHint("Jawabanmu");
                 ly_soal.addView(editText);
                 editTextList.add(editText);
                 Log.d("jumlah", "onCreate: " + editTextList.size());
@@ -348,7 +348,7 @@ public class TesActivity extends AppCompatActivity {
             startActivity(Intent.createChooser(emailIntent, "Send mail..."));
             finish();
         } catch (android.content.ActivityNotFoundException ex) {
-            Toast.makeText(TesActivity.this,
+            Toast.makeText(EssayActivity.this,
                     "There is no email client installed.", Toast.LENGTH_SHORT).show();
         }
     }
